@@ -1,0 +1,56 @@
+body{
+    color: blueviolet;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main h1{
+    color: chocolate;
+  } 
+  header{
+    color: lawngreen;
+  }     
+
+
+p1{
+    color: red;
+
+}
+footer{
+    color: black;
+}
+#celestial{
+    color: darkcyan;
+}
+#truth{
+    color: maroon;
+}
+.diff{
+    font-style: italic;
+}
+.crimson{
+    color: rgb(200, 124, 97);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bigger{
+    font-size: 25pt;
+}
+.special{
+    font-weight: 800;
+
+}
+#we{
+    color: brown;
+}
+#used{
+    color: rgb(130, 122, 119);
+}
+#inline{
+    color: rgb(132, 148, 101);
+}
+#just{
+    color: aquamarine;
+}
+#pick{
+    color: seagreen;
+}
