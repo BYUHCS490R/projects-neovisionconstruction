@@ -1,0 +1,31 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 199, 249);
+    font-size: 14pt;
+    font-style: initial;
+    color: brown;
+}
+#palus{
+    background-color: blanchedalmond;
+}
+
+header h1 {
+    background-color: cadetblue;
+}
+h3 {
+    color: chocolate;
+    background-color: coral;
+}
+.darker {
+    font-weight: bolder;
+    font-style: italic;
+}
+.palu {
+    color: cadetblue;
+}
+.moga {
+    color: coral;
+}
+.priya {
+    color: black;
+}
