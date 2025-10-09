@@ -1,5 +1,5 @@
 
-#palu {
+body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #222;
 
@@ -9,6 +9,9 @@
   background-position: center, top right;
   background-attachment: fixed;
   background-size: auto, 120px;
+}
+.palu {
+    color: transparent;
 }
 .earth {
   position: absolute;
