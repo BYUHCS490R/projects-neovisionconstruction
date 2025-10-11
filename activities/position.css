@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: paleturquoise;
+    padding: 25px;
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 5px;
+    
+}
+header h1{
+    background-color: darkgoldenrod;
+}
+main h1{
+    border: 45px;
+}
+p {
+    border: thick solid blue;
+}
