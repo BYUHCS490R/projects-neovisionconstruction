@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*margin-top: 300px; move content below our navigation */
+}
+nav {
+    display: inline-block;
+    padding: 10px;
+    background-color: aqua;
+    border-bottom: thin solid white;
+    text-decoration: none;
+}
+.hammer {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    margin: 0;
+    z-index: 10;
+    display: none;
+}
+nav a:hover{
+    text direction: underline;
+}
+.naruto {
+  border: thick solid black;
+    width: 300px;
+    
+}
+.floater{
+    float: left;-
+}
+.poster img {
+    width: 100%;
+}
+.clear {
+        clear: both;
+}
+.naruto {
+    border: thick solid black;
+}
