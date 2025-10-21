@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    background-color: gold;
+    color: beige;
+    width: 150px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    background-color: beige;
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    border: thin solid rgb(0, 0, 0);
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(167, 29, 29);
+    width: 300px;
+}
+.mainthem {
+    order: -1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
