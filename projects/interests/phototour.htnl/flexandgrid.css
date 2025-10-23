@@ -1,0 +1,97 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-origin: content-box;
+    background-clip: border-box;
+    background-color: black;
+}
+header {
+    text-align: center;
+    background-color: rgb(210, 28, 28);
+    border: double 5px black;
+    border-radius: 25px;
+    height: auto;
+    box-shadow: 10px 10px 5px grey;
+    padding: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px black;
+}
+    
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+nav a {
+    display: block;
+    background-color: rgb(164, 150, 248);
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    width: 300px;
+    
+      
+}
+nav a:hover{
+    color: blue;
+    background-color: rgb(226, 209, 188);
+    text-decoration: underline;
+    border-radius: 25px;
+
+}
+.parent {
+    color: beige;
+    display: flex;
+    padding: 10px;
+}
+.Anime {
+    margin: 120px;
+    box-shadow: 10px 10px 10px rgb(167, 29, 29);
+    border: thin solid rgb(133, 60, 60);
+    margin: 25px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+     height: fit-content;
+     color: darkgoldenrod;
+     display: flex;
+     flex:0 0 25%;
+     box-sizing: border-box;
+    
+
+}
+.row {
+    
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content:space-between;
+    flex-wrap:wrap;
+    gap: 10px;
+    
+}
+.links {
+    display: grid;
+    grid-template-columns: repeat(5,75px);
+    grid-template-rows: 30% 30% 30% 30% 30%;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+
+}
+.links a {
+    display: block;
+}
+.palu {
+    color:burlywood;
+}
+
+
