@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(58, 56, 56);
+    margin: 0;
+}
+.sidebar h3{
+    margin: 0;
+}
+main h2{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color: white;
+}
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+.main-row {
+    display: flex;
+
+}
+.card {
+    border: solid rgb(9, 7, 7);
+    box-shadow: 3px 3px 5px; color: rgb(21, 11, 11);
+    width: 100px;
+    margin: 5px;
+}
+.card img {
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
