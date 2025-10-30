@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: rgb(200, 13, 13);
+    border: thin solid rgb(95, 16, 16);
+    box-shadow: 20px 20px 20px black;
+    border-radius: 10px;
+    margin:5px;
+    text-align: center;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(131, 198, 154);
+    color: rgb(8, 8, 8);
+    margin: 5px;
+
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+.main-row {
+    display: flex;
+    
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main h2 {
+    text-align: center;
+}
+.card {
+    display: flex;
+    border: solid rgb(9, 7, 7);
+    box-shadow: 8px 8px 5px rgb(21, 11, 11);
+    width: 230px;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+}
+
+
+
+
+@media only print {
+    nav {
+        display: none;
+    }
+    .girl {
+        margin:100px;
+    }
+    
+    
+}
+
+
+
+@media ONLY screen AND (max-width:600px){
+    body {
+        background-color: rgb(235, 216, 194);
+    }
+    nav{
+        flex-direction: column;
+    }
+    .main-row{
+        flex-direction: column-reverse;
+    }
+    .card {
+        margin: 0;
+    }
+    .sidebar {
+        width: 100%;
+    
+    }
+    .main-card{
+        order: -1;
+    }
+} 
