@@ -1,0 +1,118 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color:white;
+}
+
+header {
+  background-color: #1e3d59;
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+
+nav {
+  background-color: #1e73bd;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+nav a:hover{
+     background-color: red;
+}
+
+.construction {
+  border: thin solid black;
+  border-spacing: 5px;
+  border-collapse: separate;
+  caption-side: top;
+  margin: auto;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.sidebar {
+  background-color: #e8f0fe;
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cfm {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0;
+}
+thead {
+  background-color: #1e3d59;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f8ff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+tfoot {
+    background-color: #1e3d59;
+  color: white;
+
+}
+
+footer {
+  background-color: #1e73bd;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media only screen and (max-width:500px) {
+    body {
+        background-color: aliceblue;
+
+    }
+    nav {
+        flex-direction: column;
+    }
+    .cfm {
+        flex-direction: column-reverse;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
