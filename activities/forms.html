@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <header>
+        <h1>Vinay web design</h1>
+    </header>
+    <main>
+        <h1>Forms</h1>
+        <form action="formprocess.html" method="get"></form>
+        <div>
+            <label for="fname">Full Name:</label>
+            <input type="Text" name="fullname" placeholder="Full Name" id="fname">
+        </div>
+        <div>
+            <label for="fname">Email:</label>
+            <input type="email" name="fullname" value="your@gmail.com" id="fname">
+        </div>
+        <div>
+            <label for="Pass">Passward</label>
+            <input type="passward" name="pass" id="pass">
+        </div>
+        <div>
+            <label form="state">State</label>
+            <select name="state" id="state">
+                <option value="blank">----</option>
+                <option value="CA">California</option>
+                <option value="HI">Hawaii</option>
+                <option value="UT">Utah</option>
+            </select>
+        </div>
+        <div>
+            <label><input type="checkbox">I agree to the terms</label>
+        </div>
+        <div>
+            Gender
+            <label><input type="radio" name="male">Male</label>
+            <label><input type="radio" name="female">Female</label>
+        
+        </div>
+        <div>
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment">Hello</textarea>
+        </div>
+        <input type="submit" value="Sign up">
+        <p>Action: The action attribute tells the form where to send the data when the user submits </p>
+
+<p>2. Method: The method attribute tells the form how to send the data (what HTTP method to use).</p>
+
+<p>3. POST vs GET: GET sends data in the URL for retrieving information, while POST sends data hidden in the request body for submitting or saving information.</p>
+
+    </form>
+    </main>
+    <footer>
+        &copy;Vinay Palaparthi 2025
+    </footer>
+    
+</body>
+</html>
