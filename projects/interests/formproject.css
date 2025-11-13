@@ -136,11 +136,7 @@ input[type="submit"] {
   justify-content: center;
 }
 
-input[type="submit"]:hover {
-  background-color: #3e8e41;
-}
-
-@media (max-width: 768px) {
+@media only screen and (max-width: 500px) {
   .form-row,
   .form-group {
     flex-direction: column;
