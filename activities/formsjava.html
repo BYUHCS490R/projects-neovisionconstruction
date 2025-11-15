@@ -14,11 +14,11 @@
         <h1>Forms</h1>
         <form action="formprocess.html" method="get" id="myform"></form>
         <div class="form-row">
-            <label for="fname">Full Name:</label>
+            <label for="fullname">Full Name:</label>
             <input type="Text" name="fullname" placeholder="Full Name" id="fullname">
         </div>
         <div class="form-row">
-            <label for="fname">Email:</label>
+            <label for="email">Email:</label>
             <input type="email" name="fullname" value="your@gmail.com" id="email">
         </div>
         <div class="form-row">
@@ -51,20 +51,31 @@
         </div>
         <div class="form-row">
             <label for="age">age:</label>
-            <input type="number" id="age" value="age">
+            <input type="number" name="age" id="age">
         </div>
         <div class="form-row">
             <div class="spacer"></div>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="sudmit">
         </div>
-        
-        <p>Action: The action attribute tells the form where to send the data when the user submits </p>
+        <p>1. JavaScript is a computer language used to make websites active and interactive.
+For example: buttons that work, slideshows, pop-ups, animations — all use JavaScript.</p>
 
-<p>2. Method: The method attribute tells the form how to send the data (what HTTP method to use).</p>
+<p>2.JavaScript was first called Mocha, then LiveScript.
+Later, the company changed the name to JavaScript because the Java language was famous at that time, and they wanted JavaScript to sound popular too.
 
-<p>3. POST vs GET: GET sends data in the URL for retrieving information, while POST sends data hidden in the request body for submitting or saving information.</p>
-<p>what are two esys can run javacsript</p>
-<p>in the dom (in a we browseer, in a html page)</p>
+JavaScript and Java are not the same.</p>
+
+<p>3. 1. In the web browser
+
+Example: Chrome, Firefox, Edge, Safari.
+This is how websites run JavaScript.
+<p>2. On the server using Node.js
+
+Node.js lets JavaScript run outside the browser, like for creating servers.</p></p>
+<p>4. jQuery was the most popular library.
+It helped developers do things easily on websites.</p>
+<p>5.React is the most popular today.
+Companies use it to build fast and modern websites.</p>
 
     </form>
     </main>
@@ -72,32 +83,34 @@
         &copy;Vinay Palaparthi 2025
     </footer>
     <script>
-        document.getElementById('myform').addEventListener('sudmit',function(event) {
+        document.getElementById('myform').addEventListener('submit',function(event) {
             event.preventDefault();
-        
-            
+
             const fullname = document.getElementById('fullname').value;
             const email = document.getElementById('email').value;
-              const password = document.getElementById('password').value;
-              const age = document.getElementById('age').value;
-              
-              if (!fullname || !email) {
-                alert ("you need a name and email.");
+            const password = document.getElementById('password').value;
+            const age = document.getElementById('age').value;
+            
+            if (!fullname || !email) {
+                alert("you need a name and email.")
                 return;
             }
-            if (!age || age<20) {
-                alert ("you need to be 20");
-                return;
-            }
-            const formdata = {
-                name:fullname,
-                email:email,
-                password: password,
-                age:age,
-            };
 
+            if (!age || ! age <18) {
+                alert ("you need to be 18.")
+                return
+            }
+
+            const formData = {
+                name: fullname,
+                email: email,
+                password: password,
+                age: age
+            };
+            alert("form submitted");
             console.log(formData);
-          });
+        });
+
     </script>
     
 </body>
