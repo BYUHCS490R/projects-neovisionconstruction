@@ -11,14 +11,15 @@
         <h1>Registration Form</h1>
     </header>
     <main>
-    <form action="test.html" method="post">
+      <div id="message"></div>
+    <form action="test.html" method="get" id="myform">
       <div class="form-row">
         <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+        <input type="text" id="fullname" name="fullname" placeholder="FullName">
       </div>
       <div class="form-row">
         <label for="username">User Name:</label>
-        <input type="text" id="username" name="username" placeholder="User Name">
+        <input type="text" id="username" name="username" placeholder="UserName">
       </div>
       <div class="form-row">
         <label for="email">Email:</label>
@@ -112,6 +113,7 @@
         <label for="bio">Description about you:</label>
         <textarea id="bio" name="bio" rows="4" placeholder="Write a short description..."></textarea>
       </div>
+      
       <fieldset>
         <legend>Terms</legend>
         <label><input type="checkbox" name="agree" required> I agree to the terms and conditions</label>
@@ -119,10 +121,12 @@
       <div class="form-group submit">
         <input type="submit" value="Register">
       </div>
+      <div>   </div>
     </form>
   </main>
     <footer>
         &copy;vinay Palaparthi 2025
     </footer>
+     <script src="forms.js"></script>
 </body>
 </html>
