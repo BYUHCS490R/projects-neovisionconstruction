@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+iframe {
+    border: 0;
+}
+.btn {
+    display: block;
+    padding: 10px;
+    color: aqua;
+    background-color: blue;
+    width: 110px;
+    text-align: center;
+    transition: background-color 3s ease-in-out;
+    transition-delay: 2s;
+
+}
+.btn:hover {
+    background-color: lightblue;
+}
+#indiaflag {
+    width: 100px;
+    margin: 0;
+    border: thick solid black;
+    box-shadow: none5px 5px 5px black;
+
+    transform: translate(150px,10px);
+}
+#naruto img {
+  width:50%;
+  text-align: center;
+  
+  
+}
