@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannon Camera</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    <nav>
+         <a href="projecthome.html">Home</a>
+                <a href="project1.html">Cannon Camera</a>
+                <a href="project2.html" >sony Cameras</a>
+                 <a href="project3.html" >Nickon Camera</a>
+                 <a href="projecttable.html">Types of camera</a>
+                 <a href="projectform.html" class="current">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Wanna buy a camera with much discount then fill this form and get best camera for less price from us.</h2>
+        <div id="message"></div>
+       
+           
+        <form action="#" method="get" id="myform">
+             <fieldset>
+                 <legend>Information</legend>
+        <div class="gallery">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="FullName">
+      </div>
+      
+      <div class="gallery">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+      </div>
+      
+      <div class="potrait">
+        <label for="phone">Phone Number:</label>
+        <div class="phone-wrapper">
+          <select id="countryCode" name="countryCode">
+            <option value="">Select</option>
+            <option value="+1">+1 US</option>
+            <option value="+44">+44 UK</option>
+            <option value="+61">+61 AU</option>
+            <option value="+81">+81 JP</option>
+            <option value="+86">+86 CH</option>
+            <option value="+91">+91 IN</option>
+          </select>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        </div>
+      </div>
+      <div class="gallery">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" >
+      </div>
+      <div class="gallery">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="99">
+      </div>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Gender:</legend>
+        <label><input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <label><input type="radio" name="gender" value="other" required> Other</label>
+      
+      <div class="gallery">
+        <label for="country">Country:</label>
+        <select name="country" id="country" >
+          <option value="">Select</option>
+          <option value="US">USA</option>
+          <option value="IN">India</option>
+          <option value="JP">Japan</option>
+          <option value="AU">Australia</option>
+          <option value="CN">China</option>
+          <option value="UK">UK</option>
+        </select>
+      </div>
+      <div class="gallery">
+        <label for="state">State:</label>
+        <select id="state" name="state">
+          <option value="">Select</option>
+          <option>Hawaii</option>
+          <option>California</option>
+          <option>Texas</option>
+          <option>Florida</option>
+          <option>England</option>
+          <option>Scotland</option>
+          <option>Northern Ireland</option>
+          <option>Victoria</option>
+          <option>Queensland</option>
+          <option>New South Wales</option>
+          <option>Osaka</option>
+          <option>Tokyo</option>
+          <option>Kyoto</option>
+          <option>Beijing</option>
+          <option>Shanghai</option>
+          <option>Sichuan</option>
+          <option>Andhra Pradesh</option>
+          <option>Telangana</option>
+          <option>Karnataka</option>
+        </select>
+      </div>
+      </fieldset>
+     
+     <fieldset>
+        <legend>which one do you wanna buy</legend>
+        <label><input type="radio" name="camera" value="cannon" required> Cannon</label>
+        <label><input type="radio" name="camera" value="sony" required>Sony</label>
+        <label><input type="radio" name="camera" value="nikon" required>Nikon</label>
+      
+        
+        <div class="gallery">
+            <label for="other">If you Others, which one</label>
+            <input type="text" name="other" id="other">
+
+        </div>
+        </fieldset>
+        
+
+        
+
+     
+
+      
+
+      <div class="gallery">
+         
+        
+       
+        <label for="bio">Description about your expectation on camera:</label>
+        <textarea id="bio" name="bio" rows="4" placeholder="Write a short description..."></textarea>
+        </div>
+      
+      <div class="gallery">
+    
+        <label for="experience">Any exeperience about photography/(optional):</label>
+        <textarea id="experience" name="experience" rows="4" placeholder="Write a short description..."></textarea>
+        </div>
+    
+    
+      
+      <fieldset>
+
+        <legend>Terms</legend>
+        <h3>Terms and conditions</h3>
+        <p>I like to get more information and co-operate with you in research before buying a camera and all the information i provide is proper</p>
+        <label><input type="checkbox" name="agree" required> I agree to the terms and conditions</label>
+      </fieldset>
+      <div class="potrait sudmit">
+        <input type="submit" value="sudmit">
+      </div>
+     
+    </form>
+        
+
+    </main>
+    <footer>
+        &COPY;Vinay Palaprthi 2025
+    </footer>
+    <script src="form.js"></script>
+    
+</body>
+</html>
